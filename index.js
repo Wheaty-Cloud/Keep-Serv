@@ -13,7 +13,7 @@ app.listen(3000, () => {
 
 // --- PARTIE 2 : LE BOT MINECRAFT ---
 const botArgs = {
-  host: 'TON_IP_FALIX', // Exemple: mavoie.falix.gg
+  host: 'stryblock.falix.gg ', // Exemple: mavoie.falix.gg
   port: 25565,          // Ton port
   username: 'Garde24h',
   version: '1.20.4'     // Ta version
@@ -41,5 +41,6 @@ function createBot() {
 
   bot.on('error', (err) => console.log('Erreur:', err));
 }
+
 
 createBot();
